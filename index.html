@@ -1,115 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600%7CRoboto:300,400,500" media="all">
-  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-  <link rel="stylesheet" href="css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/queries.css" type="text/css">
-  <link rel="stylesheet" href="css/main.css" type="text/css">
-	<title>Bootstrap: Grid System</title>
-</head>
-<body>
-	<header>
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-lg-4 col-sm-3 col-xs-6">
-					<h1>Site Name</h1>        
-				</div>
-			<div class="col-lg-4 hidden-sm hidden-xs pull-right">
-				<form class="navbar-form navbar-right" role="search">
-					<div class="form-group">
-            			<input type="text" class="form-control" placeholder="Buscar">
-            		</div>
-            		<button type="submit" class="btn btn-default">Enviar</button>
-            	</form>
-            </div>
-            <div class="col-lg-2 col-sm-4 col-xs-6 it">
-            	<i class="fa fa-home margin"></i><span class="margin">Noticias</span>
-        		<i class="fa fa-home margin"></i><span class="margin">Enlaces RSS</span>
-      		</div>
-    		</div>
-  		</div><!--la barra de arriba de links--><!--links principales arriba de la hamburgues-->
-	</header>
-	<section> <!--nav-bar hambuerguesa responsive chingona-->
-  		<div class="container-fluid">
-    		<div class="row">
-      			<div class="col-lg-12 col-sm-12 col-xs-12">
-       				<nav class="navbar navbar-default nav-justified" role="navigation">
-          				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-            				<span class="sr-only">Desplegar navegación</span>
-            				<span class="icon-bar"></span>
-            				<span class="icon-bar"></span>
-            				<span class="icon-bar"></span>
-          				</button>
-          				<div class="collapse navbar-collapse navbar-ex1-collapse">
-            				<ul class="nav navbar-nav nav-tabs nav-justified pull-right">
-              					<li class="active"><a href="#">Bienvenido</a></li>
-              					<li><a href="#">Actualidades</a></li>
-              					<li><a href="#">En directo</a></li>
-              					<li><a href="#">Reporte financiero</a></li>
-              					<li><a href="#">Nuestra Oferta</a></li>
-              					<li><a href="#">De nosotros a usted</a></li>
-            				</ul>
-            				<form class="navbar-form navbar-left hidden-lg hidden-sm hidden-md" role="search">
-              					<div class="form-group">
-                					<input type="text" class="form-control" placeholder="Buscar">
-              					</div>
-              				<button type="submit" class="btn btn-default margin">Enviar</button>
-            				</form>
-          				</div>
-        			</nav>
-      			</div>
-    		</div>
-  		</div>
-	</section>
-  <section>
+ <section>
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-5">
-          <div>
-            <span class="label label-default">Historia destacada</span>
-          </div>
-          <div>
-            <ul class="list-inline">
-              <li><a href="#">Artículo</a>│</li>
-              <li><span class="text-muted">publicado el 09/10/15</span></li>
-            </ul>
-          </div>
-          <div>
-            <h4><strong>Lorem ipsum et diligat gentris</strong></h4>
+          <div class="it">
+            <h4><strong>Etiam lorem et suspira nostres</strong></h4>
+            <div class="picture text-center">Foto</div>
             <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus iure ipsa adipisci quaerat possimus optio veniam deleniti, facilis vel suscipit. Ab animi veniam sapiente quod neque aliquam, vero qui nam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam similique eum vel porro, inventore quia culpa obcaecati iusto perferendis consequatur illo facilis magni modi id dolor dolorum, architecto. Dicta, iusto.</p>
-            <i class="fa fa-bookmark"></i>
+              <i class="fa fa-bookmark"></i>
             <span>Ver más...</span>
-            <i class="fa fa-tag"></i>
+              <i class="fa fa-tag"></i>
             <span>Etiquetas: </span>
             <span>
-              <a href="#">lorem</a>
-              <a href="#">impsum</a>
-              <a href="#">diligat</a>
+              <ins>lorem</ins>
+              <ins>impsum</ins>
+              <ins>diligat</ins>
             </span>
-          </div>
-          <hr class="pull-left">
-        </div>
-        <div class="col-lg-5">
-          <div class="bg-gray">
-            <div>
-              <span class="label label-default">Historia destacada</span>
-            </div>
-            <div>
-        	    <iframe width="460" height="215" src="https://www.youtube.com/embed/C7h83Ws7PWU" frameborder="0" allowfullscreen></iframe>
-		          <h4><strong>Claire Dupond</strong></h4>
-              <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita quis consequuntur commodi! Maxime facere eos rerum, quasi asperiores architecto, a blanditiis animi odio, quos et magni exercitationem nihil, ullam minus.</p>
-              <ul class="list-inline">
-                <li><span class="text-muted">publicado el 09/10/15</span></li>
-                <li><i class="fa fa-bookmark"></i></li>
-                <li><span>Ver más...</span> </li>
-              </ul>
-            </div>
+            <hr class="pull-left">
           </div>
         </div>
+        
+  </section>
+	
+  
         <div class="col-lg-2">
           <div>
            <h4><strong>Más información</strong></h4>
@@ -145,85 +57,59 @@
             </ul>
           </div>
         </div>
-      </div>
-    </div><!--primera seccion de noticias-->
-  </section>
-  <section> <!--segunda seccion de noticas-->
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-5">
-          <div class="it">
-            <h4><strong>Etiam lorem et suspira nostres</strong></h4>
-            <div class="picture text-center">Foto</div>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus iure ipsa adipisci quaerat possimus optio veniam deleniti, facilis vel suscipit. Ab animi veniam sapiente quod neque aliquam, vero qui nam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam similique eum vel porro, inventore quia culpa obcaecati iusto perferendis consequatur illo facilis magni modi id dolor dolorum, architecto. Dicta, iusto.</p>
-            <i class="fa fa-bookmark"></i>
-            <span>Ver más...</span>
-              <i class="fa fa-tag"></i>
-            <span>Etiquetas: </span>
-            <span>
-              <a href="#">lorem</a>
-              <a href="#">impsum</a>
-              <a href="#">diligat</a>
-            </span>
-            <hr class="pull-left">
+        <div class="col-lg-2">
+          <div class="gray">
+           <h4>MAGAZINE</h4>
+           <span><h4><strong>ECODEFI</h4></strong></span>
+            <div class="text-muted">ENQUETE</div>
+            <div class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A autem, mollitia ea quae quaerat optio nulla, rerum harum fugiat neque</div>
+            <br>
+            <div class="text-muted">PREGUNTAS</div>
+            <div class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
           </div>
         </div>
+      </div>        
+    </div>
+  </section>
+ 
         <div class="col-5">
-          <div>
-            <span class="label label-default">Agenda</span>
-          </div>
+          <span class="label label-default float">Agenda</span>
           <div class="notes">
-            <ul class="unstyle-list">
-              <li>
-                <span class="date">23 enero</span>
-                <span><strong>Lorem ipsum et diligat</strong></span>
-                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus dicta, facere in, quo odit doloribus natus rem quam consequatur reprehenderit maiores molestias impedit rerum architecto sit ab reiciendis, nam quisquam.</p>
-              </li>
-              <li>
-                <span class="date">23 enero</span>
-                <span><strong>Lorem ipsum et diligat</strong></span>
-                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus dicta, facere in, quo odit doloribus natus rem quam consequatur reprehenderit maiores molestias impedit rerum architecto sit ab reiciendis, nam quisquam.</p>
-              </li>
-              <li>
-                <span class="date">23 enero</span>
-                <span><strong>Lorem ipsum et diligat</strong></span>
-                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus dicta, facere in, quo odit doloribus natus rem quam consequatur reprehenderit maiores molestias impedit rerum architecto sit ab reiciendis, nam quisquam.</p>
-              </li>
-              <li>
-                <span class="date">23 enero</span>
-                <span><strong>Lorem ipsum et diligat</strong></span>
-                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus dicta, facere in, quo odit doloribus natus rem quam consequatur reprehenderit maiores molestias impedit rerum architecto sit ab reiciendis, nam quisquam.</p>
-              </li>
-            </ul>
+            
+                <div class="date">23 enero</div>
+                <div class="friend"><strong>Lorem ipsum et diligat</strong></div> 
+              
+                <div class="date">23 enero</div>
+              
+                <div class="date">23 enero</div>
+              
+                <div class="date">23 enero</div>
+              
+          <div class="infor">
+                <div class="friend"><strong>Lorem ipsum et diligat</strong></div> 
+                <div class="friend"><strong>Lorem ipsum et diligat</strong></div>
+                <div class="friend"><strong>Lorem ipsum et diligat</strong></div>
+                <div class="friend"><strong>Lorem ipsum et diligat</strong></div>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </section>  
   <section>
-  </section>
+    <div class="col-lg-2 pull-right">
+          <div class="gray its">
+           <h4>MAGAZINE</h4>
+           <span><h4><strong>ACCIONES COMUNES</h4></strong></span>
+            <div class="text-muted">ENQUETE</div>
+            <div class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A autem, mollitia ea quae quaerat optio nulla, rerum harum fugiat neque</div>
+            <br>
+            <div class="text-muted">PREGUNTAS</div>
+            <div class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+          </div>
+          <div class="graym its">
+            <span><strong>Nueva generación de internet</strong></span>
+           </div>
+
+  </section>  
 
 
-
-	
-
-
-
-
-
-        
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-
-
-
-
-</body>
-</html>

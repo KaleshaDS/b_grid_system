@@ -1,58 +1,39 @@
-.blue{
-	background-color: blue;
-	color:red;
-}
-.white{
-	background-color: blue;
-	color:white;
-	z-index: -1;
-}
-.margin{
-	position: relative;
-	top:1em;
-	left: 4em;
-	margin-left: 0.5em;
-}
-.it{
-	float: right;
-}
-section{
-	margin: 1em 0;
-}
-hr{
-	width:100%;
-	border: 1px solid gray;
-	opacity: 0.5;
-}
-.picture{
-	width: 100%;
-	font-size: 2em;
-	padding:15%;
-	background-color: gray;
-}
-.bg-gray{
-	width: 100%;
-	background-color: #D8D8D8;
-	z-index: -1;
-	padding:0 3em;
-}
-.it{
-	position:relative;
-	bottom: 10em;
-}
+
+
+
+
+/*cudrillos jotones*/
 .date{
-	font-size:1em;
 	width: 4em;
 	height: 4em;
 	background-color: gray;
-	margin: 0.5em;
-	padding:0.5em;
 	display: inline-block;
-	color: #FFF;
-
+	padding:1em;	
+	font-weight: bold;
+	font-size: 1em;
+	position: relative;
+	bottom: 60px;
+	margin-bottom: 3px;
 }
-.notes li{
-	width: 80%;
+.friend{
+	display: inline-block;
+	position: relative;
+	bottom: 100px;
+	width: 200px;
+}
+.friend2{
+	width: 100px;
+	position: relative;
+	bottom: 90px;
+	display: inline;
 	list-style-type: none;
 	font-size: 10px;
-}		
+
+}
+.margin{
+	width: 20%;
+	height: 20em;
+	font-size: 10px;
+}
+
+

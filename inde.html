@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600%7CRoboto:300,400,500" media="all">
+  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/queries.css" type="text/css">
+  <link rel="stylesheet" href="css/main.css" type="text/css">
+	<title>Bootstrap: Grid System</title>
+<title>Bootstrap: Grid System</title>
+  </head>
+  <body>
+ -<section>
+ -  <div class="containner-fluid">
+ +<header>
+ +  <div class="container-fluid">
+      <div class="row">
+ -      <div class="col-lg-6 col-md-6 col-sm-hidden">
+ -        <span><a href="#" class="margin"><!--icono de home-->Noticias</a></span>
+ -        <span><a href="#" class="margin"><!--otro icono-->Enlaces RSS</a></span>
+ +      <div class="col-lg-4 col-sm-3 col-xs-6">
+ +        <h1>Site Name</h1>        
+        </div>
+ -      <div class="col-lg-6 col-md-6 col-sm-hidden">
+ -        <form class="navbar-form navbar-left hidden-lg" role="search">
+ +      <div class="col-lg-4 hidden-sm hidden-xs pull-right">
+ +        <form class="navbar-form navbar-right" role="search">
+            <div class="form-group">
+ -            <input type="text" placeholder="Ingresa tu busqueda">
+ -            <button type="submit" class="btn btn-default">Buscar</button>
+ +            <input type="text" class="form-control" placeholder="Buscar">
+            </div>
+ +          <button type="submit" class="btn btn-default">Enviar</button>
+          </form>
+        </div>
+ +      <div class="col-lg-2 col-sm-4 col-xs-6 it">
+ +        <i class="fa fa-home margin"></i><span class="margin">Noticias</span>
+ +        <i class="fa fa-home margin"></i><span class="margin">Enlaces RSS</span>
+ +      </div>
+      </div>
+    </div>
+ -</section>
+ -<header>
+ -  <h1>Site name</h1>
+ -   <div class="container-fluid"> 
+ +</header>
+ +<section>
+ +  <div class="container-fluid">
+      <div class="row">
+ -      <ul class="nav nav-tabs col-lg-12 col-md-12 col-sm-12">
+ -        <li class="active pull-right"><a href="#">De nosotros</a></li>
+ -        <li class="active pull-right"><a href="#">Nuestra Oferta</a></li>
+ -        <li class="active pull-right"><a href="#">Reporte financiero</a></li>
+ -        <li class="active pull-right"><a href="#">En directo</a></li>
+ -        <li class="active pull-right"><a href="#">Actualidades</a></li>
+ -        <li class="active pull-right"><a href="#">Bienvenidos</a></li>
+ -      </ul>
+ -        <nav class="navbar">
+ -          <div class="container-fluid">
+ -            <div class="navbar-header">
+ -              <button type="button" class="navbar-toggle collapsed aosdfa " data-toggle="collapse" data-target="?#?menu?" aria-expanded="false" aria-controls="navbar">
+ -                <span class="sr-only">Navegación</span>
+ -                <span class="icon-bar"></span>
+ -                <span class="icon-bar"></span>
+ -                <span class="icon-bar"></span>
+ -                <span class="icon-bar"></span>
+ -                <span class="icon-bar"></span>
+ -                <span class="icon-bar"></span>
+ -              </button> 
+ -            </div>
+ -            <div id="menu" class="navbar-collapse collapse">
+ -              <ul class="nav navbar-nav text-left">
+ -                <li><a href="#"><span>Bienvenido</span></a> </li> 
+ -                <li><a href="#"><span>Actualidades</span></a></li>
+ -                <li> <a href="#"> <span>En directo</span> </a> </li> 
+ -                <li> <a href="#"> <span>Reporte financiero</span> </a> </li> 
+ -                <li> <a href="#"> <span>Nuestra oferta</span> </a> </li> 
+ -                <li> <a href="#"> <span>De nosotros a usted</span> </a> </li> 
+ -              </ul>
+ +      <div class="col-lg-12 col-sm-12 col-xs-12">
+ +        <nav class="navbar navbar-default nav-justified" role="navigation">
+ +          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+ +            <span class="sr-only">Desplegar navegación</span>
+ +            <span class="icon-bar"></span>
+ +            <span class="icon-bar"></span>
+ +            <span class="icon-bar"></span>
+ +          </button>
+ +          <div class="collapse navbar-collapse navbar-ex1-collapse">
+ +            <ul class="nav navbar-nav nav-tabs nav-justified pull-right">
+ +              <li class="active"><a href="#">Bienvenido</a></li>
+ +              <li><a href="#">Actualidades</a></li>
+ +              <li><a href="#">En directo</a></li>
+ +              <li><a href="#">Reporte financiero</a></li>
+ +              <li><a href="#">Nuestra Oferta</a></li>
+ +              <li><a href="#">De nosotros a usted</a></li>
+ +            </ul>
+ +            <form class="navbar-form navbar-left hidden-lg hidden-sm hidden-md" role="search">
+ +              <div class="form-group">
+ +                <input type="text" class="form-control" placeholder="Buscar">
+ +              </div>
+ +              <button type="submit" class="btn btn-default margin">Enviar</button>
+ +            </form>
+            </div>
+ +        </nav>
+ +      </div>
+ +    </div>
+ +  </div>
+ +</section>
+ +<section>
+ +  <div class="container-fluid">
+ +    <div class="row">
+ +      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+ +        <div>
+ +          <span class="label label-default">Historia destacada</span>
+          </div>
+ -      </nav> 
+ +        <div>
+ +          <span>Artículo<strong>│</strong></span>
+ +          <span class="text-muted">publicado el 09/10/15</span>
+ +        </div>
+ +        <div>
+ +          <h4><strong>Lorem ipsum et diligat gentris<strong></h4>
+ +            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus iure ipsa adipisci quaerat possimus optio veniam deleniti, facilis vel suscipit. Ab animi veniam sapiente quod neque aliquam, vero qui nam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam similique eum vel porro, inventore quia culpa obcaecati iusto perferendis consequatur illo facilis magni modi id dolor dolorum, architecto. Dicta, iusto.</p>
+ +            <i class="fa fa-bookmark"></i>
+ +            <span>Ver más...</span>
+ +            <i class="fa fa-tag"></i>
+ +            <span>Etiquetas: </span>
+ +            <span>
+ +              <a class="text-mutted" href="#">lorem</a>
+ +              <a class="text-mutted" href="#">impsum</a>
+ +              <a class="text-mutted" href="#">diligat</a>
+ +
+ +
+ +
+ +        
+ +      </div>
+      </div>
+ -</div>
+ -</header>       
+ +  </div>
+ +</section>     
+  
+      <!-- jQuery -->
+      <script src="js/jquery.js"></script>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+
+
+
+</body>
+</html>
